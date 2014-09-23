@@ -1,0 +1,12 @@
+Source: ros-indigo-srv-tools
+Section: misc
+Priority: extra
+Maintainer: Miquel Massot <miquel.massot@uib.es>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/srv_tools
+Standards-Version: 3.9.2
+
+Package: ros-indigo-srv-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-bag-tools, ros-indigo-launch-tools, ros-indigo-plot-tools, ros-indigo-pointcloud-tools, ros-indigo-tf-tools
+Description: Stack with interesting ROS tools
