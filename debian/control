@@ -1,0 +1,12 @@
+Source: ros-indigo-bag-tools
+Section: misc
+Priority: extra
+Maintainer: Miquel Massot <miquel.massot@uib.es>
+Build-Depends: debhelper (>= 9.0.0), libconsole-bridge-dev, ros-indigo-camera-calibration-parsers, ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-image-geometry, ros-indigo-image-proc, ros-indigo-message-filters, ros-indigo-rosbag, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-stereo-image-proc
+Homepage: http://ros.org/wiki/bag_tools
+Standards-Version: 3.9.2
+
+Package: ros-indigo-bag-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libconsole-bridge-dev, ros-indigo-camera-calibration-parsers, ros-indigo-cv-bridge, ros-indigo-image-geometry, ros-indigo-image-proc, ros-indigo-message-filters, ros-indigo-rosbag, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-stereo-image-proc
+Description: ROS tools and scripts related to bagfiles
