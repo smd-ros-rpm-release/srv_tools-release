@@ -1,0 +1,12 @@
+Source: ros-indigo-plot-tools
+Section: misc
+Priority: extra
+Maintainer: Pep Lluis Negre <plnegre@uib.cat>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-rospy
+Homepage: http://ros.org/wiki/plot_tools
+Standards-Version: 3.9.2
+
+Package: ros-indigo-plot-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-rospy
+Description: plot_tools
